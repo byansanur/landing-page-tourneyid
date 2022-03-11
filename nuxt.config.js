@@ -41,7 +41,26 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n',
   ],
+  i18n: {
+    /* module options */
+    locales: [
+      'id', 'en'
+    ],
+    defaultLocale: 'id',
+    vueI18: {
+      fallbackLocale: 'id',
+      message: {
+        id: {
+          welcome: 'Selamat Datang'
+        },
+        en: {
+          welcome: 'Welcome'
+        }
+      }
+    }
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
