@@ -2,12 +2,12 @@
   <img
     class="tourneyid-logo"
     alt="TourneyId Logo"
-    src="/tourneyid.svg"
+    src="/logo_header.svg"
   >
 </template>
 
 <style>
 .tourneyid-logo {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 </style>
